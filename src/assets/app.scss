@@ -1,10 +1,15 @@
 @import '~bootstrap/scss/bootstrap';
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@600&display=swap');
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 #Navbar {
-    font-family: 'Poppins', sans-serif;
     
     .nav-link{
+        font-family: 'Poppins', sans-serif;
         text-transform: uppercase;
         padding: 1.5em;
     }    
